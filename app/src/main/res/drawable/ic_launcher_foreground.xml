@@ -3,29 +3,30 @@
     android:height="108dp"
     android:viewportWidth="108"
     android:viewportHeight="108">
-    <!-- PWA text scaled for adaptive icon -->
+    <!-- Centered group for PWA text, scaled and styled -->
     <group
-        android:scaleX="3"
-        android:scaleY="3"
-        android:translateX="24"
-        android:translateY="24">
+        android:scaleX="2.5"
+        android:scaleY="2.5"
+        android:translateX="27"
+        android:translateY="27">
+        <!-- PWA text with a similar blocky style -->
         <path
             android:fillColor="#FFFFFF"
-            android:pathData="M6.5,8.5h2.5v7H6.5z" /> <!-- P vertical bar -->
+            android:pathData="M6,8h3v8H6z" /> <!-- P vertical bar -->
         <path
             android:fillColor="#FFFFFF"
-            android:pathData="M9,11h2.5v4.5H9z" /> <!-- P horizontal bar -->
+            android:pathData="M9,10h3v3H9z" /> <!-- P horizontal bar -->
         <path
             android:fillColor="#FFFFFF"
-            android:pathData="M12,8.5h2.5v7H12zM12,8.5h2.5v2.5H12z" /> <!-- W left part -->
+            android:pathData="M12,8h3v8h-3zM12,8h3v3h-3z" /> <!-- W left part -->
         <path
             android:fillColor="#FFFFFF"
-            android:pathData="M14.5,11h2.5v4.5h-2.5z" /> <!-- W right part -->
+            android:pathData="M15,11h3v5h-3z" /> <!-- W right part -->
         <path
             android:fillColor="#FFFFFF"
-            android:pathData="M17,8.5h2.5v7H17z" /> <!-- A vertical bar -->
+            android:pathData="M18,8h3v8h-3z" /> <!-- A vertical bar -->
         <path
             android:fillColor="#FFFFFF"
-            android:pathData="M17,11h2.5v2.5H17z" /> <!-- A horizontal bar -->
+            android:pathData="M18,10h3v3h-3z" /> <!-- A horizontal bar -->
     </group>
 </vector>
